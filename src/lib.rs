@@ -219,7 +219,7 @@ impl UltralightApp {
 pub struct Ultralight {
     config: Config,
     renderer: Renderer,
-    view: Option<View>,
+    pub view: Option<View>,
 }
 
 impl Ultralight {
